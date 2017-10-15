@@ -58,7 +58,7 @@ public class GameScreen implements Screen {
 		
 		this.loader = new TmxMapLoader();												//create a map loader
 		
-		this.music = man.get("welcometojungle.mp3", Music.class);						//load the background sound
+		this.music = man.get("backinblack.mp3", Music.class);							//load the background sound
 		music.setLooping(true);															//set it to looping
 	}
 	

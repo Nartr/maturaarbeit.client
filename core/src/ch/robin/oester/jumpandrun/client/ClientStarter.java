@@ -64,7 +64,7 @@ public class ClientStarter extends Game {
 		for(int i = 0; i < MAX_PLAYERS; i++) {
 			man.load("MarioSprite" + i + ".png", Texture.class);						//load all mario sprite
 		}
-		man.load("welcometojungle.mp3", Music.class);									//load the music and all backgrounds
+		man.load("backinblack.mp3", Music.class);										//load the music and all backgrounds
 		man.load("background.png", Texture.class);
 		man.load("BackgroundStyle.png", Texture.class);
 		man.load("WaitingArea.png", Texture.class);
